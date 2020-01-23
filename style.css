@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+body{
+    background-image: url(./images/backgr.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+    
+    
+}
+.big ul
+{   
+    background-color: rgb(97, 126, 206); 
+    padding: 10px;
+    text-align: center;
+    display: inline-flex;
+    color: white;
+}
+.big ul li a{
+    
+    margin: 150px;
+    padding: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
