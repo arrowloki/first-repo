@@ -1,0 +1,70 @@
+
+body{
+    
+margin: 0;
+padding: 0;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./images/login.jpg);
+    background-position: center;
+       
+}
+.login
+{
+    width: 300px;
+    padding: 40px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+    text-align:center ;
+    background-color:#19233d;
+    
+    
+}
+.login h1{
+    color:white;
+    font-weight: 300;
+
+}
+.login input[type="email"],.login input[type="password"]{
+
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(168, 9, 17);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 25px;
+    background: none;
+    color: white;
+    transition: 0.2s;
+}
+.login input[type="email"]:focus,.login input[type="password"]:focus{
+    width: 280px;
+    border-color:rgb(3, 126, 54);
+}
+.login input[type="submit"]{
+    
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(168, 9, 17);
+    padding: 14px 10px;
+    width: 150px;
+    outline: none;
+    border-radius: 25px;
+    background: none;
+    color: white;
+    transition: 0.2s;
+
+}
+.login input[type="submit"]:focus{
+    
+    width: 200px;
+    border-color:rgb(3, 126, 54);
+}
