@@ -1,0 +1,48 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(130, 170, 19, 0.712);
+    background-position: center;
+    
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(69, 49, 185, 0.849);
+   text-align: center;
+    border: 3px solid rgba(231, 20, 20, 0.534);
+    border-radius: 25px;
+    text-decoration: none;
+     background: linear-gradient(to right,orange,yellow,red);   
+    padding: 5px 10px;    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+
+
+
+
+
+
+}
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+

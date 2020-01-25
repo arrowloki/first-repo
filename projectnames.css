@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFF275;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #161032;
+}
+.ud{
+    margin: 20px;
+    font-size: large;
+    color: #4F3130;
+    margin-left: -7px;
+    text-decoration-line: underline;
+
+}
+a{  
+    margin-right: 15px ;
+    text-decoration: none;
+    color: rgb(38, 8, 143) ;
+    background: linear-gradient(to right,yellow,red);
+    
+}
+ul li{
+    list-style-type: none;
+}
+.cp{
+    margin-top: 200px;
+    color: red;
+}
+
+
+

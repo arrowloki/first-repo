@@ -1,15 +1,16 @@
-gi*{
+*{
     margin: 0;
     padding: 0; 
     box-sizing: border-box; 
 }
 body{
-    background-image: url(./images/backgr.jpg);
+    background-color: #D4F2D2;
     
     background-position: center;
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+    font-size: larger;
 
 }
 
@@ -23,7 +24,7 @@ ul li{
 }
 .big ul
 {   
-    background-color: rgb(188, 175, 190); 
+    background-color: #140D4F;
     padding: 10px;
     text-align: center;
     display: inline-flex;
