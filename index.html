@@ -1,30 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            my first webpage
-        </title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  </head>
+  <body>
 
-    </head>
-    <body>
-        <div class="big">
-        <ul>
-            <li><a href="#"> home</a><i class="fa fa-home"></i></li>
-            <li><a href="#">about </a><i class="fa fa-male"></i></li>
-            <li><a href="#">contact</a><i class="fa fa-address-card"></i></li>
-            <li><a href="#">more</a><i class="fa fa-plus-square"></i></li>
-        </ul>
+  <div class="header">
+    <h1 class="logo">L O K I</h1>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Works</a>
+      <a href="#">Contact</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
+  
+
+<div class="content">
+  <p>
+    welcome to the page!! here 
+    one can find the information about my projects.<a class="a-login" href="./login.html">please login </a>for more info
+</p>
+    
     </div>
-        <div class="lit"> 
-        <p>
-            welcome to the page!! here 
-            one can find the information about my projects.<a href="./login.html">please login </a>for more info
-        </p>
-        <br>
-
-
-        </div>
-    </body>
-</html> 
+  </body>
+</html>
